@@ -11,7 +11,7 @@
 
 ## 如何使用？
 
-例如您的Workers项目域名为：`docker.fxxk.dedyn.io`；
+例如您的Workers项目域名为：`hub.pk8s.com`；
 
 ### 1.官方镜像路径前面加域名
 ```shell
@@ -27,7 +27,7 @@ docker pull docker.fxxk.dedyn.io/library/nginx:stable-alpine3.19-perl
 sudo mkdir -p /etc/docker
 sudo tee /etc/docker/daemon.json <<-'EOF'
 {
-  "registry-mirrors": ["https://docker.fxxk.dedyn.io"]  # 请替换为您自己的Worker自定义域名
+  "registry-mirrors": ["https://hub.pk8s.com"]  # 请替换为您自己的Worker自定义域名
 }
 EOF
 sudo systemctl daemon-reload
