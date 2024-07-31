@@ -15,10 +15,10 @@
 
 ### 1.官方镜像路径前面加域名
 ```shell
-docker pull docker.fxxk.dedyn.io/stilleshan/frpc:latest
+docker pull hub.pk8s.com/stilleshan/frpc:latest
 ```
 ```shell
-docker pull docker.fxxk.dedyn.io/library/nginx:stable-alpine3.19-perl
+docker pull hub.pk8s.com/library/nginx:stable-alpine3.19-perl
 ```
 
 ### 2.一键设置镜像加速
